@@ -41,7 +41,7 @@ background-color: white;
 
 .community-container
 {
-background-color: white;
+background-color: lightgray;
 
     .community-right
         {
@@ -52,6 +52,31 @@ background-color: white;
         {
             background-color:pink;
         }
+}
+
+.fandom-container
+{
+background-color: white;
+
+    .fandom-left
+        {
+            background-color:aqua;
+        }
+
+    .fandom-right
+        {
+            background-color:pink;
+        }
+}
+
+.technology-container
+{
+    background-color: lightgrey;
+    
+    .technology
+    {
+        background-color: green;
+    }
 }
 
 /* Utilities */
@@ -138,12 +163,49 @@ header
 
 .community-left
 {
-    width: 50%;
+    width: 30%;
     height: 300px;
 }
 
 .community-right
 {
+    width: 50%;
+    height: 300px;
+}
+
+/* fandom */
+
+.fandom-container
+{
+    padding: 3rem 2rem 3rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.fandom-left
+{
+    width: 50%;
+    height: 300px;
+}
+
+.fandom-right
+{
     width: 30%;
     height: 300px;
 }
+
+/* Technology */
+
+.technology-container
+{
+    padding: 3rem 2rem 3rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.technology
+{
+    width: 60%;
+    height: 600px;
+}
+
