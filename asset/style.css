@@ -79,6 +79,54 @@ background-color: white;
     }
 }
 
+.top-footer
+{
+    background-color: rgb(39, 39, 39);
+
+    .top-footer-social
+    {
+    background-color: rgb(254, 121, 143);
+    }
+
+    .top-footer-prodotto
+    {
+        background-color: rgb(1, 174, 157);
+    }
+
+    .top-footer-compagnia
+    {
+        background-color: rgb(1, 174, 157);
+    }
+
+    .top-footer-risorse
+    {
+        background-color: rgb(1, 174, 157);
+    }
+
+    .top-footer-norme
+    {
+        background-color: rgb(1, 174, 157);
+    }
+}
+
+.footer-bottom
+{
+    background-color: rgb(39, 39, 39);
+
+   #logo-footer {
+    background-color: rgb(254, 121, 143);
+   } 
+
+   #footer-button
+   {
+    background-color: rgb(254, 121, 143);;
+   }
+
+   .footer-bottom-container {
+    background-color: aquamarine;
+   }
+}
+
 /* Utilities */
 ul
 {
@@ -107,8 +155,9 @@ header
     justify-content: center;
     align-items: center;
 }
+
 .header-container {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     padding: 0.2rem;
@@ -205,7 +254,65 @@ header
 
 .technology
 {
-    width: 60%;
+    width: 80%;
     height: 600px;
+}
+
+/* Footer */
+
+/* Top Footer */
+
+.top-footer
+{
+    padding: 0.5rem 2rem 1.5rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.top-footer-social
+{
+    width: 20%;
+    height: 400px;
+}
+
+.top-footer-prodotto
+{
+    width: 15%;
+    height: 400px;
+}
+
+.top-footer-compagnia
+{
+    width: 15%;
+    height: 400px;
+}
+
+.top-footer-risorse
+{
+    width: 15%;
+    height: 400px;
+}
+
+.top-footer-norme
+{
+    width: 15%;
+    height: 400px;
+}
+
+/* Footer-bottom */
+
+.footer-bottom
+{
+    padding: 1rem 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-bottom-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 0rem;
 }
 
