@@ -1,3 +1,51 @@
 *{
     margin: 0;
 }
+
+.debug
+{
+    header {
+        background-color:aqua
+    }
+
+    .header-container {
+        background-color:darkgoldenrod;
+        display: flex;
+    }
+}
+
+/* Utilities */
+ul
+{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+}
+
+li
+{
+    margin-left: 2px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Header */
+header
+{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.2rem;
+    
+}
