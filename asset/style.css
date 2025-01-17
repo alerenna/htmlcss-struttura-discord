@@ -24,6 +24,20 @@
     }
 }
 
+.invite-only-container
+{
+background-color: white;
+
+    .invite-only-left
+        {
+            background-color:aqua;
+        }
+
+    .invite-only-right
+        {
+            background-color:pink;
+        }
+}
 
 /* Utilities */
 ul
@@ -75,5 +89,25 @@ header
 {
     width: 60%;
     height: 250px;
+}
 
+/* invite-only */
+
+.invite-only-container
+{
+    padding: 3rem 2rem 3rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.invite-only-left
+{
+    width: 50%;
+    height: 250px;
+}
+
+.invite-only-right
+{
+    width: 30%;
+    height: 250px;
 }
