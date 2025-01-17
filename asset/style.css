@@ -23,52 +23,24 @@
         }
     }
 
-    .invite-only-container
+    .container,
+    #invite-only,
+    #fandom
     {
     background-color: white;
 
-        .invite-only-left
+        .left
             {
                 background-color:aqua;
             }
 
-        .invite-only-right
+        .right
             {
                 background-color:pink;
             }
     }
 
-    .community-container
-    {
-    background-color: lightgray;
-
-        .community-right
-            {
-                background-color:aqua;
-            }
-
-        .community-left
-            {
-                background-color:pink;
-            }
-    }
-
-    .fandom-container
-    {
-    background-color: white;
-
-        .fandom-left
-            {
-                background-color:aqua;
-            }
-
-        .fandom-right
-            {
-                background-color:pink;
-            }
-    }
-
-    .technology-container
+    .container
     {
         background-color: lightgrey;
         
@@ -184,20 +156,20 @@ header
 
 /* invite-only */
 
-.invite-only-container
+.container
 {
     padding: 3rem 2rem 3rem 2rem;
     display: flex;
     justify-content: center;
 }
 
-.invite-only-left
+.left
 {
     width: 50%;
     height: 300px;
 }
 
-.invite-only-right
+.right
 {
     width: 30%;
     height: 300px;
@@ -205,41 +177,41 @@ header
 
 /* community */
 
-.community-container
+.container
 {
     padding: 3rem 2rem 3rem 2rem;
     display: flex;
     justify-content: center;
 }
 
-.community-left
+.left
+{
+    width: 50%;
+    height: 300px;
+}
+
+.right
 {
     width: 30%;
     height: 300px;
 }
 
-.community-right
-{
-    width: 50%;
-    height: 300px;
-}
-
 /* fandom */
 
-.fandom-container
+.container
 {
     padding: 3rem 2rem 3rem 2rem;
     display: flex;
     justify-content: center;
 }
 
-.fandom-left
+.left
 {
     width: 50%;
     height: 300px;
 }
 
-.fandom-right
+.right
 {
     width: 30%;
     height: 300px;
@@ -247,7 +219,7 @@ header
 
 /* Technology */
 
-.technology-container
+.container
 {
     padding: 3rem 2rem 3rem 2rem;
     display: flex;
