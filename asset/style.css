@@ -12,120 +12,122 @@
         background-color:darkgoldenrod;
         display: flex;
     }
-}
 
-.jumbotron-container
-{
-    background-color: blue;
-    
-    .jumbotron
+    .jumbotron-container
     {
-        background-color: rgb(255, 161, 244);
-    }
-}
-
-.invite-only-container
-{
-background-color: white;
-
-    .invite-only-left
+        background-color: blue;
+        
+        .jumbotron
         {
-            background-color:aqua;
+            background-color: rgb(255, 161, 244);
+        }
+    }
+
+    .invite-only-container
+    {
+    background-color: white;
+
+        .invite-only-left
+            {
+                background-color:aqua;
+            }
+
+        .invite-only-right
+            {
+                background-color:pink;
+            }
+    }
+
+    .community-container
+    {
+    background-color: lightgray;
+
+        .community-right
+            {
+                background-color:aqua;
+            }
+
+        .community-left
+            {
+                background-color:pink;
+            }
+    }
+
+    .fandom-container
+    {
+    background-color: white;
+
+        .fandom-left
+            {
+                background-color:aqua;
+            }
+
+        .fandom-right
+            {
+                background-color:pink;
+            }
+    }
+
+    .technology-container
+    {
+        background-color: lightgrey;
+        
+        .technology
+        {
+            background-color: green;
+        }
+    }
+
+    .top-footer
+    {
+        background-color: rgb(39, 39, 39);
+
+        .top-footer-social
+        {
+        background-color: rgb(254, 121, 143);
         }
 
-    .invite-only-right
+        .top-footer-prodotto
         {
-            background-color:pink;
-        }
-}
-
-.community-container
-{
-background-color: lightgray;
-
-    .community-right
-        {
-            background-color:aqua;
+            background-color: rgb(1, 174, 157);
         }
 
-    .community-left
+        .top-footer-compagnia
         {
-            background-color:pink;
-        }
-}
-
-.fandom-container
-{
-background-color: white;
-
-    .fandom-left
-        {
-            background-color:aqua;
+            background-color: rgb(1, 174, 157);
         }
 
-    .fandom-right
+        .top-footer-risorse
         {
-            background-color:pink;
+            background-color: rgb(1, 174, 157);
         }
-}
 
-.technology-container
-{
-    background-color: lightgrey;
-    
-    .technology
+        .top-footer-norme
+        {
+            background-color: rgb(1, 174, 157);
+        }
+    }
+
+    .footer-bottom
     {
-        background-color: green;
+        background-color: rgb(39, 39, 39);
+
+    #logo-footer {
+        background-color: rgb(254, 121, 143);
+    } 
+
+    #footer-button
+    {
+        background-color: rgb(254, 121, 143);;
+    }
+
+    .footer-bottom-container {
+        background-color: aquamarine;
+    }
     }
 }
 
-.top-footer
-{
-    background-color: rgb(39, 39, 39);
 
-    .top-footer-social
-    {
-    background-color: rgb(254, 121, 143);
-    }
-
-    .top-footer-prodotto
-    {
-        background-color: rgb(1, 174, 157);
-    }
-
-    .top-footer-compagnia
-    {
-        background-color: rgb(1, 174, 157);
-    }
-
-    .top-footer-risorse
-    {
-        background-color: rgb(1, 174, 157);
-    }
-
-    .top-footer-norme
-    {
-        background-color: rgb(1, 174, 157);
-    }
-}
-
-.footer-bottom
-{
-    background-color: rgb(39, 39, 39);
-
-   #logo-footer {
-    background-color: rgb(254, 121, 143);
-   } 
-
-   #footer-button
-   {
-    background-color: rgb(254, 121, 143);;
-   }
-
-   .footer-bottom-container {
-    background-color: aquamarine;
-   }
-}
 
 /* Utilities */
 ul
@@ -150,7 +152,7 @@ a
 /* Header */
 header
 {
-    padding: 2rem;
+    padding: 0.75rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
