@@ -39,6 +39,21 @@ background-color: white;
         }
 }
 
+.community-container
+{
+background-color: white;
+
+    .community-right
+        {
+            background-color:aqua;
+        }
+
+    .community-left
+        {
+            background-color:pink;
+        }
+}
+
 /* Utilities */
 ul
 {
@@ -88,7 +103,7 @@ header
 .jumbotron
 {
     width: 60%;
-    height: 250px;
+    height: 300px;
 }
 
 /* invite-only */
@@ -103,11 +118,32 @@ header
 .invite-only-left
 {
     width: 50%;
-    height: 250px;
+    height: 300px;
 }
 
 .invite-only-right
 {
     width: 30%;
-    height: 250px;
+    height: 300px;
+}
+
+/* community */
+
+.community-container
+{
+    padding: 3rem 2rem 3rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.community-left
+{
+    width: 50%;
+    height: 300px;
+}
+
+.community-right
+{
+    width: 30%;
+    height: 300px;
 }
