@@ -14,6 +14,17 @@
     }
 }
 
+.jumbotron-container
+{
+    background-color: blue;
+    
+    .jumbotron
+    {
+        background-color: rgb(255, 161, 244);
+    }
+}
+
+
 /* Utilities */
 ul
 {
@@ -43,9 +54,26 @@ header
     align-items: center;
 }
 .header-container {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: space-around;
     padding: 0.2rem;
-    
+}
+
+/* Main */
+
+/* Jumbotron */
+
+.jumbotron-container
+{
+    padding: 3rem 2rem 3rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron
+{
+    width: 60%;
+    height: 250px;
+
 }
