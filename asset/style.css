@@ -29,12 +29,14 @@
     {
     background-color: white;
 
-        .left
+        .left,
+        .community-left
             {
                 background-color:aqua;
             }
 
-        .right
+        .right,
+        .community-right
             {
                 background-color:pink;
             }
@@ -154,7 +156,7 @@ header
     height: 300px;
 }
 
-/* invite-only */
+/* invite-only + fandom + community-container + technology-container */
 
 .container
 {
@@ -177,54 +179,19 @@ header
 
 /* community */
 
-.container
-{
-    padding: 3rem 2rem 3rem 2rem;
-    display: flex;
-    justify-content: center;
-}
-
-.left
-{
-    width: 50%;
-    height: 300px;
-}
-
-.right
+.community-left
 {
     width: 30%;
     height: 300px;
 }
 
-/* fandom */
-
-.container
-{
-    padding: 3rem 2rem 3rem 2rem;
-    display: flex;
-    justify-content: center;
-}
-
-.left
+.community-right
 {
     width: 50%;
-    height: 300px;
-}
-
-.right
-{
-    width: 30%;
     height: 300px;
 }
 
 /* Technology */
-
-.container
-{
-    padding: 3rem 2rem 3rem 2rem;
-    display: flex;
-    justify-content: center;
-}
 
 .technology
 {
