@@ -171,7 +171,7 @@ header
 {
     width: 80%;
     height: 600px;
-}*/
+}
 
 /* Footer */
 
@@ -203,7 +203,6 @@ header
     padding: 1rem 2rem 0rem;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
 }
 
 .footer-bottom-container {
