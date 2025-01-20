@@ -54,30 +54,16 @@
     {
         background-color: rgb(39, 39, 39);
 
-        .top-footer-social
+        .top-footer-big
         {
         background-color: rgb(254, 121, 143);
         }
 
-        .top-footer-prodotto
+        .top-footer-small
         {
             background-color: rgb(1, 174, 157);
         }
 
-        .top-footer-compagnia
-        {
-            background-color: rgb(1, 174, 157);
-        }
-
-        .top-footer-risorse
-        {
-            background-color: rgb(1, 174, 157);
-        }
-
-        .top-footer-norme
-        {
-            background-color: rgb(1, 174, 157);
-        }
     }
 
     .footer-bottom
@@ -198,31 +184,13 @@ header
     justify-content: center;
 }
 
-.top-footer-social
+.top-footer-big
 {
     width: 20%;
     height: 400px;
 }
 
-.top-footer-prodotto
-{
-    width: 15%;
-    height: 400px;
-}
-
-.top-footer-compagnia
-{
-    width: 15%;
-    height: 400px;
-}
-
-.top-footer-risorse
-{
-    width: 15%;
-    height: 400px;
-}
-
-.top-footer-norme
+.top-footer-small
 {
     width: 15%;
     height: 400px;
